@@ -33,9 +33,9 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Autonomus Driving for Formula Student',
+          title: 'Formula Student Autonomous System',
           description:
-            'I am currently working on developing autonomus system for our race car.',
+            'Engineering real-time navigation systems using Python & C++, implementing Pure Pursuit controllers and cone detection algorithms.',
           imageUrl:
             'https://iztechracing.com.tr/logo2RR.png',
           link: 'https://iztechracing.com.tr/',
