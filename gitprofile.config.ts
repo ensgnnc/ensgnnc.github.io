@@ -14,7 +14,7 @@ const CONFIG = {
     github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['ensgnnc/Yrsa', 'sarperkahvecioglu/otonom_f1'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['ensgnnc/Biolists', 'ensgnnc/AppOpener', 'sarperkahvecioglu/otonom_f1', 'ensgnnc/caracals', 'ensgnnc/Yrsa'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -33,21 +33,13 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'Autonomus Driving for Formula Student',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'I am currently working on developing autonomus system for our race car.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
+            'https://iztechracing.com.tr/logo2RR.png',
+          link: 'https://iztechracing.com.tr/',
+        }
       ],
     },
   },
@@ -79,82 +71,64 @@ const CONFIG = {
       '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'JavaScript',
+    'Python',
+    'C#',
+    'TypeScript',
     'React.js',
     'Node.js',
     'Nest.js',
+    'Flutter',
+    'Expo',
+    'GitHub Actions',
+    'CI/CD',
     'MySQL',
     'PostgreSQL',
+    'Unity',
+    'Postman',
     'Git',
     'Docker',
     'CSS',
-    'Tailwind',
-    'Python',
-    'C#'
+    'Tailwind'
   ],
   experiences: [
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
-    },
+    //{
+    //  company: 'Company Name',
+    //  position: 'Position',
+    //  from: 'September 2021',
+    //  to: 'Present',
+    //  companyLink: 'https://example.com',
+    //},
+    //{
+    //  company: 'Company Name',
+    //  position: 'Position',
+    //  from: 'July 2019',
+    //  to: 'August 2021',
+    //  companyLink: 'https://example.com',
+    //},
   ],
   certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
+    //{
+    //  name: 'Lorem ipsum',
+    //  body: 'Lorem ipsum dolor sit amet',
+    //  year: 'March 2022',
+    //  link: 'https://example.com',
+    //},
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
-    },
+      institution: 'İzmir Institute of Technology',
+      degree: "Bachelor's Degree in Computer Engineering",
+      from: '2024',
+      to: '2030',
+    }
   ],
   publications: [
-    {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
+    source: '', // medium | dev
+    username: '', // to hide blog section, keep it empty
+    limit: 0, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
