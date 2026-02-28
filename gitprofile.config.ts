@@ -39,6 +39,14 @@ const CONFIG = {
           imageUrl:
             'https://iztechracing.com.tr/logo2RR.png',
           link: 'https://iztechracing.com.tr/',
+        },
+        {
+          title: 'Gym Reservation Automation',
+          description:
+            'Built a time-critical booking assistant for a university gym system with daily slot openings at 00:00, focusing on reliable scheduling, retries, logging, and user notifications with manual fallback when extra verification is required.',
+          imageUrl:
+            'https://yks.iyte.edu.tr/favicon.ico',
+          link: '',
         }
       ],
     },
